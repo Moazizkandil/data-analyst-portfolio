@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="Data analyst portfolio showcasing data analytics, SQL, Python, and Power BI projects.">
+  <title>Your Name | Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">DA<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Your Name</span></h1>
+        <h2>Aspiring Data Analyst</h2>
+        <p class="intro">
+          I turn raw data into meaningful insights through
+          data analysis, visualization, and storytelling.
+          I enjoy solving problems and helping people make
+          data-driven decisions.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore Projects ↗</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/YOUR_USERNAME">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/YOUR_USERNAME/">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb">📊</div>
+        <p class="eyebrow">DATA • INSIGHTS • IMPACT</p>
+        <h3>Making data useful.</h3>
+        <p>From messy datasets to clear, actionable insights.</p>
+        <div class="mini-stats">
+          <div><strong>SQL</strong><span>Querying</span></div>
+          <div><strong>Python</strong><span>Analysis</span></div>
+          <div><strong>Power BI</strong><span>Dashboards</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="about-card">
+        <p>
+          I'm a data analyst passionate about exploring data,
+          discovering patterns, and communicating findings
+          through compelling visualizations.
+        </p>
+        <p>
+          My interests include data cleaning, exploratory
+          data analysis, business intelligence, and reporting.
+          I'm continuously learning and building practical
+          projects to strengthen my analytical skills.
+        </p>
+        <p class="muted">Education: Add your degree and university here.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">⌘</span>
+          <h3>Data Analysis</h3>
+          <p>Excel · Data Cleaning · Statistics</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">⌗</span>
+          <h3>Programming</h3>
+          <p>SQL · Python · Pandas</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">▥</span>
+          <h3>Visualization</h3>
+          <p>Power BI · Tableau · Matplotlib</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">◈</span>
+          <h3>Tools</h3>
+          <p>Jupyter Notebook · Git · GitHub</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">MY RECENT WORK</p>
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <p class="muted">Explore my work across analytics and visualization.</p>
+
+      <div class="filters" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="sql">SQL</button>
+        <button class="filter" data-filter="python">Python</button>
+        <button class="filter" data-filter="bi">Power BI</button>
+        <button class="filter" data-filter="excel">Excel</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="bi">
+          <div class="project-visual visual-blue">📈</div>
+          <div class="project-body">
+            <span class="tag">POWER BI</span>
+            <h3>Sales Performance Dashboard</h3>
+            <p>Analyze revenue, product performance,
+              sales trends, and regional growth.</p>
+            <div class="tech-tags"><span>Power BI</span><span>DAX</span><span>Excel</span></div>
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="python">
+          <div class="project-visual visual-purple">🐍</div>
+          <div class="project-body">
+            <span class="tag">PYTHON</span>
+            <h3>Exploratory Data Analysis</h3>
+            <p>Clean a dataset, identify trends, and
+              communicate key findings with charts.</p>
+            <div class="tech-tags"><span>Python</span><span>Pandas</span><span>Seaborn</span></div>
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="sql">
+          <div class="project-visual visual-green">🗄️</div>
+          <div class="project-body">
+            <span class="tag">SQL</span>
+            <h3>Customer Insights Analysis</h3>
+            <p>Use SQL queries to explore customer
+              behavior, segments, and purchasing patterns.</p>
+            <div class="tech-tags"><span>SQL</span><span>Joins</span><span>CTEs</span></div>
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="excel">
+          <div class="project-visual visual-orange">📊</div>
+          <div class="project-body">
+            <span class="tag">EXCEL</span>
+            <h3>Business KPI Report</h3>
+            <p>Summarize business metrics with pivot tables,
+              formulas, charts, and an interactive report.</p>
+            <div class="tech-tags"><span>Excel</span><span>Pivot Tables</span><span>KPIs</span></div>
+            <a class="project-link" href="https://github.com/YOUR_USERNAME"
+              target="_blank" rel="noopener noreferrer">View Project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="contact-card">
+        <h3>Have an opportunity or a project in mind?</h3>
+        <p class="muted">I'd love to connect and discuss data, analytics,
+          and opportunities to learn and grow.</p>
+        <a class="button primary" href="mailto:YOUR_EMAIL@example.com">
+          Email Me ↗
+        </a>
+        <div class="socials">
+          <a href="https://github.com/YOUR_USERNAME">GitHub</a>
+          <a href="https://www.linkedin.com/in/YOUR_USERNAME/">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. Built with curiosity and data.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
